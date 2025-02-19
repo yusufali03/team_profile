@@ -1,18 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team members</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Members</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Inline CSS for demonstration purposes */
+    .profile-container {
+      display: flex;
+      flex-wrap: wrap;  /* Allows profiles to wrap on smaller screens */
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .profile-card {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+      width: 300px; /* Fixed width for uniform cards */
+    }
+    .profile-card img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
+  <div class="profile-container">
+    <!-- First Profile -->
     <div class="profile-card">
-        <img src="profiles/photo_2024-10-16_19-25-11.jpg" alt="Yusufali" width="400" >
+      <img src="profiles/photo_2024-10-16_19-25-11.jpg" alt="Yusufali">
+      <div>
+        <h3>Yusufali Kromitdinov</h3>
+        <p>Project Manager</p>
+      </div>
+    </div>
+    <!-- Second Profile -->
+    <div class="profile-card">
+      <img src="profiles/photo_2023-10-08_20-06-36.jpg" alt="Bahodir">
+      <div>
+        <h3>Bahodir Ismoilov</h3>
+        <p>Database Analyst</p>
+      </div>
+    </div>
+    <!-- Third Profile -->
+    <div class="profile-card">
+        <img src="profiles/2025-02-19 15.39.jpg" alt="b">
         <div>
-            <h3>Yusufali Kromitdinov</h3>
-            <p>Project Manager</p>
+          <h3>Bargida Tilyakova</h3>
+          <p>UI/UX designer,Software developer</p>
         </div>
     </div>
+    <!-- Fourth Profile -->
+    <div class="profile-card">
+      <img src="profiles/photo4.jpg" alt="Person 4">
+      <div>
+        <h3>Person 4 Name</h3>
+        <p>Role 4</p>
+      </div>
+    </div>
+    <!-- Fifth Profile -->
+    <div class="profile-card">
+      <img src="profiles/photo5.jpg" alt="Person 5">
+      <div>
+        <h3>Person 5 Name</h3>
+        <p>Role 5</p>
+      </div>
+    </div>
+    <!-- Sixth Profile -->
+    <div class="profile-card">
+      <img src="profiles/photo6.jpg" alt="Person 6">
+      <div>
+        <h3>Person 6 Name</h3>
+        <p>Role 6</p>
+      </div>
+    </div>
+    <!-- Seventh Profile -->
+    <div class="profile-card">
+      <img src="profiles/photo7.jpg" alt="Person 7">
+      <div>
+        <h3>Person 7 Name</h3>
+        <p>Role 7</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+
